@@ -7,6 +7,7 @@ Com auxilio da placa ARDUINO UNO, simular o semáforo de trânsito com 3 leds.
 - Jumpers. 
 # Procedimento 
 - Monte o circuito conforme a figura anexada, denominada 'Figura1'.
+
 -Na interface de programação de Sketches do Arduino, insira e compile o programa abaixo com a placa conectada ao seu computador através da porta USB. 
 # Código 
 
