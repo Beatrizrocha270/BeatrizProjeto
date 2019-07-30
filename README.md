@@ -11,6 +11,7 @@ Com auxilio da placa ARDUINO UNO, simular o semáforo de trânsito com 3 leds.
 # Código 
 
 // PROGRAMA SEMAFORO COM 3 LEDS 
+
 void setup() 
 { 
 pinMode(13,OUTPUT);  // DEFINE O PINO 13 COMO OUTPUT, OU SEJA, UMA SAÍDA.  
