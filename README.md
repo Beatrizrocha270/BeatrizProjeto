@@ -1,16 +1,3 @@
-# Semáforo com 3 leds 
-Com auxilio da placa ARDUINO UNO, simular o semáforo de trânsito com 3 leds. 
-# Materiais Necessários 
-- 01 Placa ARDUINO UNO.
-- 03 Leds nas cores vermelho, amarelo e verde.
-- 01 Resistor de 1K ohm. 
-- Jumpers. 
-# Procedimento 
-- Monte o circuito conforme a figura anexada, denominada 'Figura1'.
-
--Na interface de programação de Sketches do Arduino, insira e compile o programa abaixo com a placa conectada ao seu computador através da porta USB. 
-
-# Observações 
-1) O programa executa uma única vez as funções "setup" e "pinMode", que fazem a configuração inicial do ARDUINO. Depois disso, o programa executa um número indeterminado de vezes o "loop" entre os colchetes, até que o programa seja desligado ou reconfigurado. 
-2) Para que o programa funcione de maneira mais eficiente, faça uma medição dos tempos em segundos para os "delay"'s. Por exemplo, verifique se o valor de delay(5000) corresponde de fato a 5,0 segundos.
-3) Observe que o tempo de funcionamento do led amarelo é menor que dos outros o que de fato ocorre em um semáforo real.
+<p># Sem&aacute;foro com 3 leds <br />Com auxilio da placa ARDUINO UNO, simular o sem&aacute;foro de tr&acirc;nsito com 3 leds. <br /># Materiais Necess&aacute;rios <br />- 01 Placa ARDUINO UNO.<br />- 03 Leds nas cores vermelho, amarelo e verde.<br />- 01 Resistor de 1K ohm. <br />- Jumpers. <br /># Procedimento <br />- Monte o circuito conforme a figura abaixo:&nbsp;</p>
+<p><img src="https://raw.githubusercontent.com/Beatrizrocha270/BeatrizProjeto/master/Figura1.png?token=AMYAZQ6VTNKLIITGR6BKHR25JQSCY" /></p>
+<p>-Na interface de programa&ccedil;&atilde;o de Sketches do Arduino, insira e compile o programa abaixo com a placa conectada ao seu computador atrav&eacute;s da porta USB. <br /><br /># Observa&ccedil;&otilde;es <br />1) O programa executa uma &uacute;nica vez as fun&ccedil;&otilde;es "setup" e "pinMode", que fazem a configura&ccedil;&atilde;o inicial do ARDUINO. Depois disso, o programa executa um n&uacute;mero indeterminado de vezes o "loop" entre os colchetes, at&eacute; que o programa seja desligado ou reconfigurado. <br />2) Para que o programa funcione de maneira mais eficiente, fa&ccedil;a uma medi&ccedil;&atilde;o dos tempos em segundos para os "delay"'s. Por exemplo, verifique se o valor de delay(5000) corresponde de fato a 5,0 segundos.<br />3) Observe que o tempo de funcionamento do led amarelo &eacute; menor que dos outros o que de fato ocorre em um sem&aacute;foro real.</p>
