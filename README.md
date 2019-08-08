@@ -1,46 +1,7 @@
-# Semáforo com 3 leds 
-Com auxilio da placa ARDUINO UNO, simular o semáforo de trânsito com 3 leds. 
-# Materiais Necessários 
-- 01 Placa ARDUINO UNO.
-- 03 Leds nas cores vermelho, amarelo e verde.
-- 01 Resistor de 1K ohm. 
-- Jumpers. 
-# Procedimento 
-- Monte o circuito conforme a figura anexada, denominada 'Figura1'.
-
--Na interface de programação de Sketches do Arduino, insira e compile o programa abaixo com a placa conectada ao seu computador através da porta USB. 
-# Código 
-
-// PROGRAMA SEMAFORO COM 3 LEDS 
-
-void setup()
-
-{ 
-
-pinMode(13,OUTPUT);  // DEFINE O PINO 13 COMO OUTPUT, OU SEJA, UMA SAÍDA.  
-pinMode(12,OUTPUT);  // DEFINE O PINO 12 COMO OUTPUT, OU SEJA, UMA SAÍDA.  
-pinMode(11,OUTPUT);  // DEFINE O PINO 11 COMO OUTPUT, OU SEJA, UMA SAÍDA.
-
-} 
-
-void loop()  
-
-{
-
-digitalWrite(13,HIGH);  // COLOCA O PINO 13 EM NÍVEL "ALTO", OU SEJA, EM 5 V; O LED VERMELHO ACENDE.   
-delay(5000);                   // TEMPO DE ESPERA DE 5 SEGUNDOS.   
-digitalWrite(13,LOW);  // COLOCA O PINO 13 EM NÍVEL "BAIXO", OU SEJA, EM 0 V; O LED VERMELHO APAGA. 
-
-digitalWrite(11,HIGH);  // COLOCA O PINO 11 EM NÍVEL "ALTO", OU SEJA, EM 5 V; O LED VERDE ACENDE.   
-delay(5000);                   // TEMPO DE ESPERA DE 5 SEGUNDOS.    
-digitalWrite(11,LOW);  // COLOCA O PINO 11 EM NÍVEL "BAIXO", OU SEJA, EM 0 V; O LED VERDE APAGA.  
-
-digitalWrite(12,HIGH);  // COLOCA O PINO 12 EM NÍVEL "ALTO", OU SEJA, EM 5 V; O LED AMARELO ACENDE.   
-delay(2000);                   // TEMPO DE ESPERA DE 2 SEGUNDOS.  
-digitalWrite(12,LOW);  // COLOCA O PINO 12 EM NÍVEL "BAIXO", OU SEJA, 0 V; O LED AMARELO APAGA.  
-
-} 
-# Observações 
-1) O programa executa uma única vez as funções "setup" e "pinMode", que fazem a configuração inicial do ARDUINO. Depois disso, o programa executa um número indeterminado de vezes o "loop" entre os colchetes, até que o programa seja desligado ou reconfigurado. 
-2) Para que o programa funcione de maneira mais eficiente, faça uma medição dos tempos em segundos para os "delay"'s. Por exemplo, verifique se o valor de delay(5000) corresponde de fato a 5,0 segundos.
-3) Observe que o tempo de funcionamento do led amarelo é menor que dos outros o que de fato ocorre em um semáforo real.
+<p># Sem&aacute;foro com 3 leds&nbsp;</p>
+<p>Este projeto ir&aacute; simular um sem&aacute;foro de carros e pedestres.&nbsp;Ser&atilde;o tr&ecirc;s LEDs para os carros e dois para os pedestres. A sequ&ecirc;ncia inicia com o LED verde dos carros aceso e vermelho para pedestres. O sem&aacute;foro dos carros ent&atilde;o passa para cor amarela indo para cor vermelha, juntamente com o LED verde de pedestres. O LED vermelho dos pedestres ent&atilde;o pisca e a sequ&ecirc;ncia volta ao in&iacute;cio.</p>
+<p>&nbsp;<br />Com auxilio da placa ARDUINO UNO, simular o sem&aacute;foro de tr&acirc;nsito com leds.&nbsp;</p>
+<p><br /># Materiais Necess&aacute;rios </p>
+<p>2x LED Vermelho 5mm<br />2x LED Verde 5mm<br />1x LED Amarelo 5mm<br />5x Resistor 220 ohm<br />1x Protoboard<br />11x Jumper macho-macho<br />1x Cabo USB<br />1x Placa Uno<br /># Procedimento <br />- Monte o circuito conforme a figura abaixo:&nbsp;</p>
+<p><img src="https://uploads.filipeflop.com/2018/12/projeto_04_bb.png" alt="Circuito sem&Atilde;&iexcl;foro com Arduino" /></p>
+<p>-Na interface de programa&ccedil;&atilde;o de Sketches do Arduino, insira e compile o programa abaixo com a placa conectada ao seu computador atrav&eacute;s da porta USB. <br /><br /># Observa&ccedil;&otilde;es <br />1) O programa executa uma &uacute;nica vez as fun&ccedil;&otilde;es "setup" e "pinMode", que fazem a configura&ccedil;&atilde;o inicial do ARDUINO. Depois disso, o programa executa um n&uacute;mero indeterminado de vezes o "loop" entre os colchetes, at&eacute; que o programa seja desligado ou reconfigurado. <br />2) Para que o programa funcione de maneira mais eficiente, fa&ccedil;a uma medi&ccedil;&atilde;o dos tempos em segundos para os "delay"'s. Por exemplo, verifique se o valor de delay(5000) corresponde de fato a 5,0 segundos.<br />3) Observe que o tempo de funcionamento do led amarelo &eacute; menor que dos outros o que de fato ocorre em um sem&aacute;foro real.</p>
