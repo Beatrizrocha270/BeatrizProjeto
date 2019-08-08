@@ -38,7 +38,6 @@ digitalWrite(11,LOW);  // COLOCA O PINO 11 EM NÍVEL "BAIXO", OU SEJA, EM 0 V; O
 digitalWrite(12,HIGH);  // COLOCA O PINO 12 EM NÍVEL "ALTO", OU SEJA, EM 5 V; O LED AMARELO ACENDE.   
 delay(2000);                   // TEMPO DE ESPERA DE 2 SEGUNDOS.  
 digitalWrite(12,LOW);  // COLOCA O PINO 12 EM NÍVEL "BAIXO", OU SEJA, 0 V; O LED AMARELO APAGA.  
-
 } 
 # Observações 
 1) O programa executa uma única vez as funções "setup" e "pinMode", que fazem a configuração inicial do ARDUINO. Depois disso, o programa executa um número indeterminado de vezes o "loop" entre os colchetes, até que o programa seja desligado ou reconfigurado. 
